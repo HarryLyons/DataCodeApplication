@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Application</title>
+    <link rel="stylesheet" href="./StyleSheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script data-main="scripts/main" src="./scripts/require.js"></script>
+</head>
+
+
+<body>
+    <div>
+
+        <div id="Headerbox">
+            <div id="BiggerCircle">
+                <div id="SmallCircle">
+                    <i class="material-icons" id="icon">person</i>
+                </div>
+            </div>
+        <p><code id="greeting">Good Morning</code></p>
+        </div>
+
+        <div id="ContentBox">
+            <div>
+                <p><code id="username">Username</code></p>
+                <input type="text" id="InputBox" size="30">
+                <p><code id="password">Password</code></p>
+                <input type="text" id="InputBox">
+            </div>
+
+            <div>
+                <button id="LoginButton" onclick="changeLanguage('French')" value="LOGIN">
+                    <code id="label">Login</code>
+                </button>
+            </div>
+
+        </div>
+        </div>
+</body>
+</html>
