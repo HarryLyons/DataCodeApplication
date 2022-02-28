@@ -1,0 +1,115 @@
+:root {
+    --headerGrey: #555e63;
+}
+
+div {
+    margin: auto;
+    width: 300px;
+}
+
+#BiggerCircle {
+    position: relative;
+    top: -30px;
+    background-color: whitesmoke;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+#SmallCircle {
+    position: relative;
+    top: 5px;
+    background-color: var(--headerGrey);
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    border-radius: 20px;
+}
+
+#icon {
+    margin: auto;
+    position: relative;
+    top: 8px;
+}
+
+#Headerbox {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 65px;
+    background-color: var(--headerGrey);
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+#ContentBox {
+    margin-top: 0px;
+    width: 300px;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 4px 0px grey;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+#InputBox {
+    align-content: center;
+    margin-left: 20px;
+    width: 240px;
+    padding-top: 1px;
+    margin-top: 0px;
+    background-color: whitesmoke;
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+    #InputBox:focus {
+        outline: none;
+        box-shadow: 0px 0px 1px 1px lightskyblue;
+    }
+
+body {
+    background-color: whitesmoke; 
+
+#greeting {
+    position: relative;
+    top: -35px;
+    margin-top: 0px;
+    padding: 1px;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+#username {
+    margin-left: 20px;
+    padding-bottom: 1px;
+    padding: 1px;
+    color: darkgrey;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+#password {
+    margin-left: 20px;
+    padding-bottom: 1px;
+    color: darkgrey;
+    margin-bottom: 5px;
+}
+
+#LoginButton {
+    margin: 15px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    width: 100px;
+    background-color: deeppink;
+    color: white;
+    border: solid;
+    border-color: deeppink;
+    border-width: 1px;
+    border-radius: 2px;
+}
